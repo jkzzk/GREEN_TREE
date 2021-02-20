@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="动态在线树木，绿色互联，植树，种树，树树互联，人人互联，人树互联">
+
+    <title>绿色互联</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li><a>首页</a></li>
+                <li><a>如何参与</a></li>
+            </ul>
+        </div>
+        <div class="swiper-content">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide lun_1">
+                    <div class="lun_content">
+                        <h1 class="subject_title" >各国各地都植树，地球家园人人护</h1>
+                        <p class="subject_summary" >具统计，一亩树林一年可以吸收灰尘2万~6万千克，每天能吸收67千克二氧化碳，释放出48千克氧气;一个月可以吸收有毒气体二氧化硫4千克，一亩松柏林两昼夜能分泌2千克杀菌素，可杀死肺结核、伤寒、白喉、痢疾等病菌。</p>
+                        <div class="subject_btn" >查看详情</div>
+                    </div>
+                </div>
+                <div class="swiper-slide lun_2">
+                    <div class="lun_content right">
+                        <h1 class="subject_title" >让绿成为生命主旋律</h1>
+                        <p class="subject_summary" >森林是二氧化碳的主要消耗者，每公顷森林生产10吨干物质会吸收16吨二氧化碳，释放12吨氧气，这使得森林成为一座巨大的氧气库。因此植树造林已成为减缓温室效应的主要途径。</p>
+                        <div class="subject_btn" >查看详情</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
+        <div class="content pic_1">
+            <div class="pic_content left">
+                <h1 class="subject_title" data-scroll-reveal="enter left">年年植树树成荫，代代造林林成森</h1>
+                <p class="subject_summary" data-scroll-reveal="enter left after 0.2s">森林可以通过降低风速、改变风向减少风蚀的强度;林木，尤其是灌木树的强大根系，可以固着土壤颗粒。实践证明，通过营造防风沙林，配合农业、水利措施，会取得良好的防风固沙效果。</p>
+                <div class="subject_btn" data-scroll-reveal="enter left after 0.3s">查看详情</div>
+            </div>
+        </div>
+        <div class="content pic_2">
+            <div class="pic_content right">
+                <h1 class="subject_title" data-scroll-reveal="enter right">咱们共植树，四海皆绿荫</h1>
+                <p class="subject_summary" data-scroll-reveal="enter right after 0.2s">能减少噪音，美化环境，保持生态平衡，为人类提供理想的学习、工作、娱乐和生活的场所。</p>
+                <div class="subject_btn" data-scroll-reveal="enter right after 0.3s">查看详情</div>
+            </div>
+        </div>
+        <div class="content pic_3">
+            <div class="pic_content left">
+                <h1 class="subject_title" data-scroll-reveal="enter left">金山银山不如绿水青山</h1>
+                <p class="subject_summary" data-scroll-reveal="enter left after 0.2s">绿水青山本身在一定程度上可以转化为金山银山，比如可以搞一些旅游业，搞一些绿色的产业经营，没有被污染的环境实际上可以有很多的经济附加值。也就是说，绿水青山本身从现实和长远的角度来看是可以变成经济增长的动力或者引擎。</p>
+                <div class="subject_btn" data-scroll-reveal="enter left after 0.3s">查看详情</div>
+            </div>
+        </div>
+        <div class="content pic_4">
+            <div class="pic_content right">
+                <h1 class="subject_title" data-scroll-reveal="enter right">绿色生命，绿色互联</h1>
+                <p class="subject_summary" data-scroll-reveal="enter right after 0.2s">将绿色移动到线上，是一种趋势也是万物互联的一方面，动态记录绿色发展不仅是对绿色产业的推动更是绿色互联网的开端</p>
+                <div class="subject_btn" data-scroll-reveal="enter right after 0.3s">查看详情</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+
+    <script type="text/javascript">
+
+      (function($) {
+
+        'use strict';
+
+        window.scrollReveal = new scrollReveal({ reset: true, move: '200px' });
+
+        var mySwiper = new Swiper ('.swiper-content', {
+            direction: 'horizontal', // 垂直切换选项
+            speed : 3000, // 循环时间
+            loop : true,
+            grabCursor : true,
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                disableOnInteraction: false,
+            },
+        })   
+
+      })();
+
+    </script>
+</body>
+</html>

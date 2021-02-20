@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 1180px;
+    overflow-y:scroll;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+}
+
+.container .nav {
+    height: 50px;
+    background-color: #4BB344;
+}
+
+.nav ul {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+}
+
+.nav ul li{
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    margin: 0 1px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #4AB344;
+    background-color: white;
+}
+
+.nav ul li a:active,a:visited,a:link{
+    color: whitesmoke;
+}
+
+.container .content {
+    height: 1098px;
+    background-color: #4AB344;
+    background-repeat: no-repeat;
+}
+
+.container .swiper-content {
+    height: 750px; 
+    background-color: #4AB344;
+    overflow: hidden;
+}
+
+.pic_1 {
+    background-size: 100% 100%;
+    background-image: url(../images/1_02.jpg);
+}
+
+.pic_2 {
+    background-size: 100% 100%;
+    background-image: url(../images/2_02.jpg);
+}
+
+.pic_3 {
+    background-size: 100% 100%;
+    background-image: url(../images/3_02.jpg);
+}
+
+.pic_4 {
+    background-size: 100% 100%;
+    background-image: url(../images/4_02.jpg);
+}
+
+.lun_1 {
+    background-size: 100% 100%;
+    background-image: url(../images/lun_1.jpg);
+}
+
+.lun_2 {
+    background-size: 100% 100%;
+    background-image: url(../images/lun_2.jpg);
+}
+
+.lun_content {
+    width: 500px;
+    height: 400px;
+    margin: 150px auto;
+}
+
+.lun_content .subject_title {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.lun_content .subject_summary {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    text-indent : 2em;
+}
+
+.lun_content .subject_btn {
+    width: 180px;
+    height: 40px;
+    margin: 20px 50px;
+    border-radius: 30px;
+    background-color: #4AB344;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pic_content {
+    width: 600px;
+    height: 400px;
+    margin: 300px 0;
+}
+
+.pic_content .subject_title {
+    width: 100%;
+    height: 50px;
+    color: #4AB344;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pic_content .subject_summary {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    color: #4AB344;
+    font-size: 16px;
+    text-indent : 2em;
+}
+
+.pic_content .subject_btn {
+    width: 180px;
+    height: 40px;
+    margin: 20px 50px;
+    border-radius: 30px;
+    background-color: #4AB344;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.right {
+    margin-left: 60%;
+}
+
+.left {
+    margin-left: 10%;
+}
